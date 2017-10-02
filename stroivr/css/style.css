@@ -1,0 +1,109 @@
+/*Фон для секций*/
+
+.section:first-child {
+  background: #fcf8e3;
+}
+
+.section:nth-child(2) {
+  background: #cee8ff;
+}
+
+.section:nth-child(3) {
+  background: #fcf8e3;
+}
+
+.section:last-child {
+  background: #cee8ff;
+}
+
+
+/*Меню*/
+.navbar {
+  min-height: 40px;
+}
+
+.nav > li > a:focus {
+  background: #fff;
+}
+.as_modal_fon{
+	background: #fcf8e3;
+	height: 230px;
+    width: 670px;
+}
+
+.as_font_7 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#as_appName, #as_appTelephone, #as_appBut, #as_applicationName, #as_applicationTelephone, #as_applicationBut {
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#as_appName, #as_appTelephone, #as_applicationName, #as_applicationTelephone {
+    background: #fff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.as_header_text,
+.as_header_title{
+	padding-bottom: 40px;
+}
+
+.as_block2,
+.as_block1{
+	text-align: center;
+}
+.as_img1{
+	width: 100px;
+	height: auto;
+}
+.as_block3_title,
+.as_block1_title{
+	padding-bottom: 100px;
+}
+.as_title1{
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.as_text1{
+	font-size: 16px;
+}
+.as_img_block1{
+	min-height: 100px;
+}
+.as_col_block{
+	min-height: 300px;
+}
+
+.as_video {
+position:relative;
+padding-bottom:56.25%;
+/*padding-bottom:35.25%;*/
+padding-top:30px;
+height:0;
+overflow:hidden;
+border:1px solid #ccc;
+}
+.as_video iframe,.as_video object,.as_video embed {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+.as-img-icon{
+	width: 30px;
+}
